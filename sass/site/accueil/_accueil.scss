@@ -2,6 +2,17 @@
     font-size: 1em; 
 }
 
-.site-title anim1{
-    font-family: 'Margarine', cursive;
+.site-title a{
+   font-family:'Baskerville';
+   font-size:1.5em;
+}
+
+.site-description::before{
+color:black;
+text-align:right;
+font-family:'Baskerville';
+}
+
+figcaption{
+    text-align:center;
 }
