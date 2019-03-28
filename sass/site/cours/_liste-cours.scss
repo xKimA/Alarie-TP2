@@ -11,12 +11,12 @@
     margin: 2% 2% 0% 15%;
     font-size : 1.5em;
   
-    .session-1 { background-color: #9575cd; color : #fff; }
-    .session-2 { background-color: #7986cb; color : #aaa;}
-    .session-3 { background-color: #64b5f6; color : #fff;}
-    .session-4 { background-color: #4dd0e1; color : #fff;}
-    .session-5 { background-color: #4db6ac; color : #fff;}
-    .session-6 { background-color: #81c784; color : #fff;}
+    .session-1 { background-color: red; color : white; }
+    .session-2 { background-color: #7986cb; color : white;}
+    .session-3 { background-color: #64b5f6; color : white;}
+    .session-4 { background-color: #4dd0e1; color : white;}
+    .session-5 { background-color: #4db6ac; color : white;}
+    .session-6 { background-color: #81c784; color : white;}
     h3,h4 { padding:5px;}
 
     @include media(mobile){
@@ -48,9 +48,11 @@
 
         h3{
             font-size: .5em;
+            color:white !important;
         }
         h4{
             font-size: .4em;
+            color:white;
         }
     }
 }
