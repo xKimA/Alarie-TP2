@@ -20,12 +20,12 @@
 				echo wp_get_attachment_image( $image, $size );
 			}
 			?></a>
-		<figcaption>
+		<figcaption style="color:#32bca8;">
 		<?php the_title();?>
 		</figcaption>
     </figure>
     <div class="wp-block-media-text__content">
-        <p style="background-color:grey; color:white;" class="has-background has-drop-cap has-small-font-size">
+        <p style="background-color:#32bca8; color:white; text-align:justify;" class="has-background has-drop-cap has-small-font-size">
 
             <?php  echo get_the_excerpt();  ?>
         </p>
