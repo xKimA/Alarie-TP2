@@ -89,6 +89,10 @@ body.page .main-navigation {
   display: inline;
 }
 
+.main-navigation .site-description {
+  font-family: "roboto";
+}
+
 .main-navigation button {
   display: inline-block;
   border: none;
@@ -274,6 +278,7 @@ body.page .main-navigation {
   padding: calc( .5 * 1rem) calc( 24px + 1rem) calc( .5 * 1rem) 1rem;
   white-space: nowrap;
   background-color: grey;
+  font-family: "Roboto";
 }
 
 .main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus,
@@ -632,12 +637,14 @@ body.page .main-navigation {
           transform: translateY(-50vh);
   width: 5em;
   padding: 4px;
+  font-family: "Roboto";
 }
 
 .site-header.featured-image .site-branding .site-description {
   font-size: 5vw;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+  font-family: "Roboto";
 }
 
 .site-header.featured-image .site-branding {
@@ -676,9 +683,11 @@ body.page .main-navigation {
   }
   .site-header.featured-image .site-branding .site-title {
     font-size: 4vw;
+    font-family: "Roboto";
   }
   .site-header.featured-image .site-branding .site-description {
     font-size: 3vw;
+    font-family: "Roboto";
   }
 }
 
@@ -689,9 +698,11 @@ body.page .main-navigation {
   }
   .site-header.featured-image .site-branding .site-title {
     font-size: 5vw;
+    font-family: "Roboto";
   }
   .site-header.featured-image .site-branding .site-description {
     font-size: 4vw;
+    font-family: "Roboto";
   }
 }
 
