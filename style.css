@@ -101,10 +101,10 @@ body.page .main-navigation {
   background: transparent;
   color: inherit;
   cursor: pointer;
-  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
+  -webkit-transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, -webkit-transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 250ms ease-in-out, transform 150ms ease, -webkit-transform 150ms ease;
   -webkit-appearance: none;
   -moz-appearance: none;
 }
@@ -191,6 +191,7 @@ body.page .main-navigation {
   width: 24px;
   top: -0.125rem;
   vertical-align: text-bottom;
+  color: grey;
 }
 
 .wp-customizer-unloading .main-navigation .main-menu > li.menu-item-has-children .submenu-expand, .main-navigation .main-menu > li.menu-item-has-children .submenu-expand.is-empty {
@@ -704,33 +705,33 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #9575cd;
-  color: #fff;
+  background-color: red;
+  color: white;
 }
 
 .liste-cours .session-2 {
-  background-color: #7986cb;
-  color: #aaa;
+  background-color: blue;
+  color: white;
 }
 
 .liste-cours .session-3 {
   background-color: #64b5f6;
-  color: #fff;
+  color: white;
 }
 
 .liste-cours .session-4 {
   background-color: #4dd0e1;
-  color: #fff;
+  color: white;
 }
 
 .liste-cours .session-5 {
   background-color: #4db6ac;
-  color: #fff;
+  color: white;
 }
 
 .liste-cours .session-6 {
   background-color: #81c784;
-  color: #fff;
+  color: white;
 }
 
 .liste-cours h3, .liste-cours h4 {
@@ -796,6 +797,10 @@ body.page .main-navigation {
 
 figcaption {
   text-align: center;
+}
+
+h1 {
+  color: grey;
 }
 
 h1 {
