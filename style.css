@@ -130,14 +130,14 @@ body.page .main-navigation {
 }
 
 .main-navigation .main-menu > li {
-  color: #0073aa;
+  color: #1c8977;
   display: inline;
   position: relative;
 }
 
 .main-navigation .main-menu > li > a {
   font-weight: 700;
-  color: #0073aa;
+  color: #1c8977;
   margin-right: 0.5rem;
 }
 
@@ -147,7 +147,7 @@ body.page .main-navigation {
 
 .main-navigation .main-menu > li > a:hover,
 .main-navigation .main-menu > li > a:hover + svg {
-  color: #005177;
+  color: #135f52;
 }
 
 .main-navigation .main-menu > li.menu-item-has-children {
@@ -191,6 +191,12 @@ body.page .main-navigation {
   width: 24px;
   top: -0.125rem;
   vertical-align: text-bottom;
+  color: #a3a3a3 !important;
+}
+
+.main-navigation .main-menu > li.menu-item-has-children .submenu-expand.main-menu-more-toggle svg:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .wp-customizer-unloading .main-navigation .main-menu > li.menu-item-has-children .submenu-expand, .main-navigation .main-menu > li.menu-item-has-children .submenu-expand.is-empty {
@@ -208,7 +214,7 @@ body.page .main-navigation {
 }
 
 .main-navigation .sub-menu {
-  background-color: #0073aa;
+  background-color: #1c8977;
   color: #fff;
   list-style: none;
   padding-left: 0;
@@ -267,18 +273,20 @@ body.page .main-navigation {
   text-shadow: none;
   padding: calc( .5 * 1rem) calc( 24px + 1rem) calc( .5 * 1rem) 1rem;
   white-space: nowrap;
+  background-color: grey;
 }
 
 .main-navigation .sub-menu > li > a:hover, .main-navigation .sub-menu > li > a:focus,
 .main-navigation .sub-menu > li > .menu-item-link-return:hover,
 .main-navigation .sub-menu > li > .menu-item-link-return:focus {
-  background: #005177;
+  background: #135f52;
+  border-bottom: 1px solid white;
 }
 
 .main-navigation .sub-menu > li > a:hover:after, .main-navigation .sub-menu > li > a:focus:after,
 .main-navigation .sub-menu > li > .menu-item-link-return:hover:after,
 .main-navigation .sub-menu > li > .menu-item-link-return:focus:after {
-  background: #005177;
+  background: #135f52;
 }
 
 .main-navigation .sub-menu > li > .menu-item-link-return {
@@ -506,6 +514,7 @@ body.page .main-navigation {
 .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li > a:hover,
 .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu li > a:focus {
   background-color: transparent;
+  text-decoration: underline;
 }
 
 .main-navigation .main-menu .menu-item-has-children.off-canvas .sub-menu > li > a,
