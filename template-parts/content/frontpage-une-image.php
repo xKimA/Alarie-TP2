@@ -20,7 +20,7 @@
 				echo wp_get_attachment_image( $image, $size );
 			}
 			?></a>
-		<figcaption>
+		<figcaption style="color:#32bca8;">
 		<?php the_title();?>
 		</figcaption>
     </figure>
