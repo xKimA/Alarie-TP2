@@ -705,37 +705,38 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #9575cd;
-  color: white;
+  background-color: #269a56;
+  color: #fff;
 }
 
 .liste-cours .session-2 {
-  background-color: #7986cb;
-  color: white;
+  background-color: #fbc664;
+  color: #aaa;
 }
 
 .liste-cours .session-3 {
-  background-color: #64b5f6;
-  color: white;
+  background-color: #5858c5;
+  color: #fff;
 }
 
 .liste-cours .session-4 {
-  background-color: #4dd0e1;
-  color: white;
+  background-color: #57bad0;
+  color: #fff;
 }
 
 .liste-cours .session-5 {
-  background-color: #4db6ac;
-  color: white;
+  background-color: #c7496f;
+  color: #fff;
 }
 
 .liste-cours .session-6 {
-  background-color: #81c784;
-  color: white;
+  background-color: #251b04;
+  color: #fff;
 }
 
 .liste-cours h3, .liste-cours h4 {
   padding: 5px;
+  color: black;
 }
 
 @media only screen and (min-width: 600px) {
@@ -762,6 +763,39 @@ body.page .main-navigation {
         grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
   }
+  .liste-cours .session-1 {
+    background-color: #8bfdba;
+    color: #000;
+  }
+  .liste-cours .session-2 {
+    background-color: #f5f8b6;
+    color: #000;
+  }
+  .liste-cours .session-3 {
+    background-color: #c0c0ff;
+    color: #000;
+  }
+  .liste-cours .session-4 {
+    background-color: #dcf9ff;
+    color: #000;
+  }
+  .liste-cours .session-5 {
+    background-color: #ffdae5;
+    color: #000;
+  }
+  .liste-cours .session-6 {
+    background-color: #eef562;
+    color: #000;
+  }
+  .liste-cours h3 {
+    color: black;
+  }
+  .liste-cours h4 {
+    color: #486c75;
+  }
+  .liste-cours .session-1:hover, .liste-cours .session-2:hover, .liste-cours .session-3:hover, .liste-cours .session-4:hover, .liste-cours .session-5:hover, .liste-cours .session-6:hover {
+    opacity: 0.5;
+  }
 }
 
 @media only screen and (min-width: 1379px) {
@@ -774,12 +808,10 @@ body.page .main-navigation {
 
 .liste-cours .entry-title h3 {
   font-size: .5em;
-  color: white !important;
 }
 
 .liste-cours .entry-title h4 {
   font-size: .4em;
-  color: white;
 }
 
 .entry .entry-content .has-large-font-size {
@@ -799,6 +831,10 @@ body.page .main-navigation {
 
 figcaption {
   text-align: center;
+}
+
+.site-content {
+  background-color: grey !important;
 }
 
 h1 {
