@@ -705,32 +705,32 @@ body.page .main-navigation {
 }
 
 .liste-cours .session-1 {
-  background-color: #269a56;
+  background-color: #9575cd;
   color: #fff;
 }
 
 .liste-cours .session-2 {
-  background-color: #fbc664;
-  color: #aaa;
+  background-color: #7986cb;
+  color: #fff;
 }
 
 .liste-cours .session-3 {
-  background-color: #5858c5;
+  background-color: #64b5f6;
   color: #fff;
 }
 
 .liste-cours .session-4 {
-  background-color: #57bad0;
+  background-color: #4dd0e1;
   color: #fff;
 }
 
 .liste-cours .session-5 {
-  background-color: #c7496f;
+  background-color: #4db6ac;
   color: #fff;
 }
 
 .liste-cours .session-6 {
-  background-color: #251b04;
+  background-color: #81c784;
   color: #fff;
 }
 
@@ -764,28 +764,30 @@ body.page .main-navigation {
     grid-gap: 10px;
   }
   .liste-cours .session-1 {
-    background-color: #8bfdba;
-    color: #000;
+    background-color: #9575cd;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 25px;
   }
   .liste-cours .session-2 {
-    background-color: #f5f8b6;
-    color: #000;
+    background-color: #7986cb;
+    color: #fff;
   }
   .liste-cours .session-3 {
-    background-color: #c0c0ff;
-    color: #000;
+    background-color: #64b5f6;
+    color: #fff;
   }
   .liste-cours .session-4 {
-    background-color: #dcf9ff;
-    color: #000;
+    background-color: #4dd0e1;
+    color: #fff;
   }
   .liste-cours .session-5 {
-    background-color: #ffdae5;
-    color: #000;
+    background-color: #4db6ac;
+    color: #fff;
   }
   .liste-cours .session-6 {
-    background-color: #eef562;
-    color: #000;
+    background-color: #81c784;
+    color: #fff;
   }
   .liste-cours h3 {
     color: black;

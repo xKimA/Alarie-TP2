@@ -1,11 +1,5 @@
-
-
 #liste-cours {
-    margin-bottom:0;
-
-    h1{
-      color:#32bca8;
-    }
+    margin-bottom:0 ;
 }
 
 .liste-cours {
@@ -14,35 +8,54 @@
   grid-gap: 10px;
   margin: 2% 2% 0% 15%;
   font-size : 1.5em;
-  border: 2px solid black;
-   border-radius:20px;
-}
 
-  .session-1 { background-color: #9575cd; color : white; border: 2px solid black; border-radius:20px;}
-  .session-2 { background-color: #7986cb; color : grey; border: 2px solid black; border-radius:20px;}
-  .session-3 { background-color: #64b5f6; color : white; border: 2px solid black; border-radius:20px;}
-  .session-4 { background-color: #4dd0e1; color : white; border: 2px solid black; border-radius:20px;}
-  .session-5 { background-color: #4db6ac; color : white; border: 2px solid black; border-radius:20px;}
-  .session-6 { background-color: #81c784; color : white; border: 2px solid black; border-radius:20px;}
-  h3,h4 { padding:5px;}
+  .session-1 { background-color:#9575cd; color : #fff; }
+  .session-2 { background-color: #7986cb; color : #fff;}
+  .session-3 { background-color:#64b5f6; color : #fff;}
+  .session-4 { background-color: #4dd0e1; color : #fff;}
+  .session-5 { background-color: #4db6ac; color : #fff;}
+  .session-6 { background-color: #81c784; color : #fff;}
+  h3,h4 { padding:5px; color:black;}
+  
 
   @include media(mobile){
+
       grid-template-columns: repeat(2,1fr);
       grid-gap: 10px;
       font-size : 1.3em;
-
+      
+      
   }
 
   @include media(tablet) {
           grid-template-columns: repeat(3, 1fr);
           grid-gap: 10px;
           font-size : 1em;
+          
   }
 
   @include media(desktop) {
           grid-template-columns: repeat(4, 1fr);
           grid-gap: 10px;
- 
+          .session-1 { background-color:#9575cd; color : #fff; border:1px solid black; border-radius:25px;}
+          .session-2 { background-color: #7986cb; color : #fff;}
+          .session-3 { background-color:#64b5f6; color : #fff;}
+          .session-4 { background-color: #4dd0e1; color : #fff;}
+          .session-5 { background-color: #4db6ac; color : #fff;}
+          .session-6 { background-color: #81c784; color : #fff;}
+          h3{
+              color:black;
+          }
+          h4{
+              color:#486c75;
+          }
+          .session-1:hover{opacity: 0.5;}
+          .session-2:hover, .session-3:hover, .session-4:hover, .session-5:hover, .session-6:hover{@extend .session-1:hover;}
+
+          
+           
+
+          
   }
 
   @include media(wide) {
@@ -53,15 +66,17 @@
 
   .entry-title {
 
-      border: 2px solid black; border-radius:20px;
-
       h3{
           font-size: .5em;
-          color:white !important;
       }
       h4{
           font-size: .4em;
-          color:white;
       }
   }
+
+
+
+
+
+
 }
