@@ -25,7 +25,7 @@
 		</figcaption>
     </figure>
     <div class="wp-block-media-text__content">
-        <p style="background-color:grey; color:white;" class="has-background has-drop-cap has-small-font-size">
+        <p style="background-color:#32bca8; color:white; box-shadow:5px 10px black" class="has-background has-drop-cap has-small-font-size">
 
             <?php  echo get_the_excerpt();  ?>
         </p>
